@@ -1,0 +1,39 @@
+{
+  "name": "FoodMenu-Management-Node-Reis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js -e js,hbs,scss,handlebars",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnbarasanJ24/FoodMenu-Management-Node-Reis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnbarasanJ24/FoodMenu-Management-Node-Reis/issues"
+  },
+  "homepage": "https://github.com/AnbarasanJ24/FoodMenu-Management-Node-Reis#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.11",
+    "multer": "^1.4.3",
+    "multer-gridfs-storage": "^5.0.2",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
